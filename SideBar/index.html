@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <title>SideBar</title>
+</head>
+<body>
+
+    <nav class="sidebar">
+        <div class="sidebar-inner">
+            <header class="sidebar-header">
+                <button type="button" class="sidebar-burgar" onclick="toggleSidebar()">
+                    <i class='bx bx-menu'></i>
+                </button>
+                <h2 class="sidebar-logo">Qasim Haleem</h2>
+            </header>
+
+            <nav class="sidebar-menu">
+                <button type="button">
+                    <i class='bx bx-home'></i>
+                    <span>Home</span>                     
+                </button>
+                <button type="button">
+                    <i class='bx bx-user'></i>
+                    <span>Account</span>                     
+                </button>
+                <button type="button" class="has-border">
+                    <i class='bx bx-cog' ></i>
+                    <span>Setting</span>                     
+                </button>
+                <button type="button">
+                    <i class='bx bxl-dropbox' ></i>
+                    <span>Blockchin</span>                     
+                </button>
+                <button type="button">
+                    <i class='bx bx-data' ></i>
+                    <span>Database</span>                     
+                </button>
+                <button type="button" class="has-border">
+                    <i class='bx bx-podcast' ></i>
+                    <span>Podcast</span>                     
+                </button>
+                <button type="button">
+                    <i class='bx bx-music' ></i>
+                    <span>SoundBlast</span>                     
+                </button>
+                <button type="button">
+                    <i class='bx bx-layer' ></i>
+                    <span>Level</span>                     
+                </button>
+                <button type="button">
+                    <i class='bx bx-folder' ></i>
+                    <span>Folder</span>                     
+                </button>
+                <button type="button">
+                    <i class='bx bx-lock' ></i>
+                    <span>Scurity</span>                     
+                </button>
+
+                <p>Created by M|Qasim</p>
+            </nav>
+
+        </div>
+    </nav>
+
+    
+    <script type="text/javascript">
+        const toggleSidebar = () => document.body.classList.toggle("open");
+    </script>
+
+
+</body>
+</html>
