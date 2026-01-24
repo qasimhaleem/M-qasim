@@ -10,9 +10,6 @@ const App = () => {
                 <div className='items-start'>
                     <Form />
                 </div>
-                <div className=''>
-                    <History />
-                </div>
             </div>
 
         </>
